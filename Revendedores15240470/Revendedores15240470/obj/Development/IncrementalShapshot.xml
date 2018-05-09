@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Revendedores15240470</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>DPGVXCIyh/Jn6llzS1C68mtOmTA=07/05/2018 11:00:38 a. m.07/05/2018 10:41:41 a. m.</TimeStamp>
+        <ID>
+          <String>Adventureworks DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>vbRBQQZm2mIgEXGCh6CGizI6n2I=07/05/2018 11:38:08 a. m.07/05/2018 10:43:51 a. m.</TimeStamp>
+        <ID>
+          <String>Adventureworks DW2016CTP3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KynOm4Nxe0qaqLq/9+Q2Onp2DXE=07/05/2018 11:17:48 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ah6+OxQ1rf9WoSj38xo5wS5Y9FU=07/05/2018 11:18:54 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8dv1ARDRwe1JA8/csmTYQLv2x8c=07/05/2018 11:33:10 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9UJhnXjFmMFWrSIHgdL8dtMknyA=07/05/2018 11:27:37 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Reseller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pO9nN+0pQpEP1EyYnhSrTjTFSWg=07/05/2018 11:13:33 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BmWdk5UfvIsuYxFUqLe+TX/oZTc=07/05/2018 11:35:28 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5B/DnKwtY9mkbwLVLprJtWsCqX0=07/05/2018 11:39:18 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RU8RaWswfzkiprQuAimvjaSPerU=07/05/2018 10:50:54 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Fact Reseller Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ovpGkfec9ks04rwvNsKYG+A3f50=07/05/2018 11:24:14 a. m.07/05/2018 11:23:21 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>bBdf6Jeij2306uVpIJF5vwbDczE=07/05/2018 11:39:18 a. m.07/05/2018 10:50:08 a. m.2yAy0hSVPZLmP/ZDylB7uFiExHE=07/05/2018 10:50:09 a. m.07/05/2018 10:50:09 a. m.</TimeStamp>
+        <ID>
+          <String>Adventureworks DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>nrLXpIePcDYfnZ+M37+yOHqtpTg=07/05/2018 10:37:18 a. m.07/05/2018 10:37:18 a. m.</TimeStamp>
+      <ID>
+        <String>Revendedores15240470</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-05-07T16:41:12.61Z</LastDeployed>
+</DeploymentSnapshot>

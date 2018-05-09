@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Revendedores15240470", "Revendedores15240470\Revendedores15240470.dwproj", "{0E6C09F4-3475-4953-9A00-D4F844FEB44D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E6C09F4-3475-4953-9A00-D4F844FEB44D}.Development|Default.ActiveCfg = Development
+		{0E6C09F4-3475-4953-9A00-D4F844FEB44D}.Development|Default.Build.0 = Development
+		{0E6C09F4-3475-4953-9A00-D4F844FEB44D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
